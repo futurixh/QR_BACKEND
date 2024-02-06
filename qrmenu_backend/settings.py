@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'http://localhost:3000',
-    'https://aqueous-forest-06579-0355df9cd5d9.herokuapp.com',
+    'aqueous-forest-06579-0355df9cd5d9.herokuapp.com',
     ]
 
 # Application definition
