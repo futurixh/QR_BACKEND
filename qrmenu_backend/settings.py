@@ -34,6 +34,11 @@ ALLOWED_HOSTS = [
     'http://localhost:3000',
     'aqueous-forest-06579-0355df9cd5d9.herokuapp.com',
     ]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'aqueous-forest-06579-0355df9cd5d9.herokuapp.com',
+    # Example: Your frontend development server
+]
 
 # Application definition
 
@@ -59,6 +64,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ]
