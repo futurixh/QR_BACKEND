@@ -42,8 +42,8 @@ class MenuItemDetail(generics.UpdateAPIView, generics.DestroyAPIView):
   serializer_class = serializers.MenuItemSerializer
   queryset = models.MenuItem.objects.all()
 
-def home(request):
-  return render(request, 'index.html')
+# def home(request):
+#   return render(request, 'index.html')
 
 stripe.api_key = settings.STRIPE_API_SECRET_KEY
 

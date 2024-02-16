@@ -23,5 +23,5 @@ urlpatterns = [
     path('api/orders/', views.OrderList.as_view()),
     path('api/orders/<pk>', views.OrderDetail.as_view()),
 
-    re_path('', views.home),
+    #re_path('', views.home),
 ]
