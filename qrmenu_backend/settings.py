@@ -37,7 +37,8 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'codebarbenin.com'
+    'https://codebarbenin.com',
+    'http://codebarbenin.com'
 ]
 
 # Application definition
