@@ -25,17 +25,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-llgjw@(ulm@%(=!qw$c=%uo1kj9a76o+rdy9vi**dh$7qmh8bm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'qr-api.codebarbenin.com',
+    'codebarbenin.com'
     '18.168.167.119'
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # Example: Your frontend development server
+    'http://localhost:3000',
+    'codebarbenin.com'
 ]
 
 # Application definition
