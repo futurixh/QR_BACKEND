@@ -9,8 +9,6 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
     # so we'll always allow GET, HEAD or OPTIONS requests.
     if request.method in permissions.SAFE_METHODS:
         return True
-    if request.user.is_anonymous:
-        isinstance.user = None
 
     # Write permissions are only allowed to the owner of the place.
     return obj.owner == request.user
@@ -22,8 +20,6 @@ class PlaceOwnerOrReadOnly(permissions.BasePermission):
     # so we'll always allow GET, HEAD or OPTIONS requests.
     if request.method in permissions.SAFE_METHODS:
         return True
-    if request.user.is_anonymous:
-        isinstance.user = None
 
     # Write permissions are only allowed to the owner of the place.
     return obj.place.owner == request.user
