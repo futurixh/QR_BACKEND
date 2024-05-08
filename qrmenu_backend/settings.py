@@ -30,20 +30,20 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'qr-api.codebarbenin.com',
+    'api.qrmenu.codebarbenin.com',
     'codebarbenin.com',
     '18.169.152.250',
-    'qr-menu.codebarbenin.com',
+    'qrmenu.codebarbenin.com',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'https://codebarbenin.com',
     'http://codebarbenin.com',
-    'https://qr-menu.codebarbenin.com',
-    'http://qr-menu.codebarbenin.com',
-    'https://www.qr-menu.codebarbenin.com',
-    'http://www.qr-menu.codebarbenin.com',
+    'https://qrmenu.codebarbenin.com',
+    'http://qrmenu.codebarbenin.com',
+    'https://www.qrmenu.codebarbenin.com',
+    'http://www.qrmenu.codebarbenin.com',
 ]
 
 # Application definition
