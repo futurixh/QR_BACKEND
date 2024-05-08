@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'qr-api.codebarbenin.com',
     'codebarbenin.com',
-    '18.168.167.119',
+    '18.169.152.250',
     'qr-menu.codebarbenin.com',
 ]
 
